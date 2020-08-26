@@ -1,0 +1,15 @@
+[24/Aug/2020 05:21:24] "GET / HTTP/1.1" 200 1716
+[24/Aug/2020 07:12:14] "GET / HTTP/1.1" 200 1716
+[24/Aug/2020 07:12:31] "GET / HTTP/1.0" 200 1716
+[24/Aug/2020 07:12:54] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[24/Aug/2020 07:12:55] "GET /favicon.ico HTTP/1.1" 404 1967
+[24/Aug/2020 07:16:19] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[24/Aug/2020 07:16:20] "GET /favicon.ico HTTP/1.1" 404 1967
+[24/Aug/2020 07:24:37] "GET / HTTP/1.1" 200 1716
+[24/Aug/2020 11:14:25] "GET / HTTP/1.1" 200 1716
+Invalid HTTP_HOST header: '52.2.164.183:8000'. You may need to add '52.2.164.183' to ALLOWED_HOSTS.
+[24/Aug/2020 12:18:24] "GET / HTTP/1.1" 400 60266
+Invalid HTTP_HOST header: '52.2.164.183:8000'. You may need to add '52.2.164.183' to ALLOWED_HOSTS.
+[24/Aug/2020 12:18:26] "GET /favicon.ico HTTP/1.1" 400 60333
