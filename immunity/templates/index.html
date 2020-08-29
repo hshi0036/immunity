@@ -53,6 +53,20 @@
 		text-transform:uppercase;
 		font-size:18px;
 	}
+	.card {
+		opacity: 1;
+		user-select:none;
+		-moz-user-select:none; /* Firefox私有属性 */
+	    -webkit-user-select:none; /* WebKit内核私有属性 */
+	    -ms-user-select:none; /* IE私有属性(IE10及以后) */
+	    -khtml-user-select:none; /* KHTML内核私有属性 */
+	    -o-user-select:none; /* Opera私有属性 */
+	    user-select:none; /* CSS3属性 */
+	}
+	.card:hover{
+		cursor: pointer;
+
+	}
 
     </style>
 
@@ -63,30 +77,49 @@
 
 	
 	<div class="container">
-	   	<div class="row">
-	      	<div class="col-md-3 col-sm-6" 
+		<div class="row">
+			<div class="col-md-3 col-sm-6 card" 
 	         	style="background-color: #bad6bd;box-shadow: 
-	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 150px">
+	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 100px;background-image:url(static/test.jpg);
+                    background-repeat:none;">
 	         	
 	      	</div>
-	      	<div class="col-md-3 col-sm-6 card" 
+	      	<div class="col-md-7 col-sm-6 card" 
+	         	style="background-color: white;box-shadow: 
+	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 100px;">
+	         	
+	      	</div>
+	      	<div class="col-md-2 col-sm-3 card" 
+	         	style="background-color: #9acf4c;box-shadow: 
+	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 100px">
+	         	<p style="font-size: 15px; padding:30px;">language options</p>
+	      	</div>
+
+		</div>
+	   	<div class="row">
+	      	
+	      	<div class="col-md-6 col-sm-6 card" 
 	         	style="background-color: #dedef8;box-shadow: 
 	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 150px;">
-	         	<p>what is vaccine?</p>
+	         	<p  style="font-size:30px; padding-top: 15px; padding-left: 150px; padding-right: 250px">why you need vaccination?</p>
+	         	<div style="position: absolute; bottom: 5px; right: 5px">
+  					<i class="glyphicon glyphicon-eye-open" style="color: black; font-size: 40px"></i>
+  				</div>
 	      	</div>
-	      	<div class="col-md-3 col-sm-6" 
+	      	<div class="col-md-3 col-sm-6 card" 
+	         	style="background-color: #f4daf7;box-shadow: 
+	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 150px">
+	         	<p>what is vaccine</p>
+	      	</div>
+	      	<div class="col-md-3 col-sm-6 card" 
 	         	style="background-color: #b1e6bc;box-shadow: 
 	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 150px">
 	         	<p>is vaccine safe?</p>
 	         	
 	      	</div>
-	      	<div class="col-md-3 col-sm-6" 
-	         	style="background-color: #f4daf7;box-shadow: 
-	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 150px">
-	         	<p>vaccination policy</p>
-	      	</div>
+	      	
 
-	      	<div class="col-md-6 col-sm-6" 
+	      	<div class="col-md-6 col-sm-6 card" 
 	         	style="background-color: #f4daf7;box-shadow: 
 	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 600px">
 	         	
@@ -95,31 +128,18 @@
 	         	style="background-color: #dedef8;box-shadow: 
 	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 600px">
 	         	<div class="row">
-	         		<div class="col-md-12 col-sm-12" 
+	         		<div class="col-md-12 col-sm-6 card" 
+			         	style="background-color: #b4d5e0;box-shadow: 
+			         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 200px">
+			         	<p style="font-size:25px;padding-top: 30px; padding-left: 100px; padding-right: 250px">get your vaccination checklist today</p>
+			      	</div>
+	         		<div class="col-md-12 col-sm-12 card" 
 			         	style="background-color: black;box-shadow: 
-			         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 300px">
+			         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 400px">
 			         	
 			      	</div>
-	         		<div class="col-md-6 col-sm-6" 
-			         	style="background-color: #e6e4ba;box-shadow: 
-			         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 150px">
-			         	<p>find your nearest clinic</p>
-			      	</div>
-			      	<div class="col-md-6 col-sm-6" 
-			         	style="background-color: #9acf4c;box-shadow: 
-			         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 150px">
-			         	<p>language options</p>
-			      	</div>
-			      	<div class="col-md-6 col-sm-6" 
-			         	style="background-color: #b4d5e0;box-shadow: 
-			         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 150px">
-			         	<p>check your vaccine status</p>
-			      	</div>
-			      	<div class="col-md-6 col-sm-6" 
-			         	style="background-color: #d2a2db;box-shadow: 
-			         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 150px">
-			         	<p>immunisation data</p>
-			      	</div>
+	         	
+			      	
 	         	</div>
 	      	</div>
 
