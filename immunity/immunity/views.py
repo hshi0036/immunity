@@ -9,3 +9,12 @@ def index(request):
 
 def search(request):
     return render(request, 'search.html')
+
+def vaccine(request):
+    return render(request, 'vaccine.html')
+
+def safe(request):
+    return render(request, 'safe.html')
+
+def policy(request):
+    return render(request, 'policy.html')

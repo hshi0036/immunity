@@ -81,13 +81,14 @@
 		<div class="row">
 			<div class="col-md-3 col-sm-6 card" 
 	         	style="background-color: #bad6bd;box-shadow: 
-	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 100px;background-image:url(static/test.jpg);
-                    background-repeat:none;">
+	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 120px;background-image:url(static/test.png);
+                    background-repeat:none;
+                    background-size: 300px 120px;">
 	         	
 	      	</div>
 	      	<div class="col-md-7 col-sm-6 card" 
 	         	style="background-color: white;box-shadow: 
-	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 100px;">
+	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 120px;">
 	         	
 	      	</div>
 	      	<!-- <div class="col-md-2 col-sm-3 card" 
@@ -97,25 +98,28 @@
 	      	</div> -->
 
 		</div>
-	   	<div class="row">
+	   	<div class="row" style="margin-top: 30px">
 	      	
-	      	<div class="col-md-6 col-sm-6 card" 
+	      	<div class="col-md-4 col-sm-6 card" 
+	      		v-on:click="vaccine($event)"
 	         	style="background-color: #dedef8;box-shadow: 
 	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 150px;">
-	         	<p  style="font-size:30px; padding-top: 15px; padding-left: 150px; padding-right: 250px">why you need vaccination?</p>
+	         	<p  style="font-size:30px; padding-top: 15px; padding-left: 100px; padding-right: 250px">what is vaccine?</p>
 	         	<!-- <div style="position: absolute; bottom: 5px; right: 5px">
   					<i class="glyphicon glyphicon-eye-open" style="color: black; font-size: 40px"></i>
   				</div>
  -->	      	</div>
-	      	<div class="col-md-3 col-sm-6 card" 
+	      	<div class="col-md-4 col-sm-6 card" 
+	      		v-on:click="safe($event)"
 	         	style="background-color: #f4daf7;box-shadow: 
 	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 150px">
-	         	<p>what is vaccine</p>
+	         	<p style="font-size:30px; padding-top: 15px; padding-left: 100px; padding-right: 250px">is vaccine safe?</p>
 	      	</div>
-	      	<div class="col-md-3 col-sm-6 card" 
+	      	<div class="col-md-4 col-sm-6 card" 
+	      		v-on:click="policy($event)"
 	         	style="background-color: #b1e6bc;box-shadow: 
 	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 150px">
-	         	<p>is vaccine safe?</p>
+	         	<p style="font-size:30px; padding-top: 40px; padding-left: 100px; padding-right: 250px">AU policy</p>
 	         	
 	      	</div>
 	      	
@@ -205,6 +209,15 @@ var demo = new Vue({
 		},
 		search: function($event) {
 			window.location.href='/search';
+		},
+		vaccine: function($event) {
+			window.location.href='/vaccine';
+		},
+		safe: function($event) {
+			window.location.href='/safe';
+		},
+		policy: function($event) {
+			window.location.href='/policy';
 		},
 
 

@@ -24,4 +24,7 @@ urlpatterns = [
     url(r'^$', views.index),
     url(r'^index/$', views.index),
     url(r'^search/$', views.search),
+    url(r'^vaccine/$', views.vaccine),
+    url(r'^safe/$', views.safe),
+    url(r'^policy/$', views.policy),
 ] + static(settings.STATIC_URL)
