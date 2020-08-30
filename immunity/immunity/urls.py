@@ -23,4 +23,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.index),
     url(r'^index/$', views.index),
-] + static(settings.STATIC_URL , document_root=settings.STATIC_ROOT)
+    url(r'^search/$', views.search),
+] + static(settings.STATIC_URL)
