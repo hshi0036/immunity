@@ -68,6 +68,35 @@
 		transform: scale(0.9,0.9);
 
 	}
+	select{
+		padding-right: 30px;
+		cursor: pointer;
+		-webkit-appearance: none;
+		background-color: #fff;
+		background-image: none;
+		border-radius: 4px;
+
+		border: 1px solid #dcdfe6;
+		box-sizing: border-box;
+
+		color: #606266;
+
+		display: inline-block;
+
+		font-size: inherit;
+
+		height: 40px;
+
+		line-height: 40px;
+
+		outline: none;
+
+		padding: 0 15px;
+		transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+
+		width: 100%;
+		font-family: inherit;
+	}
 
     </style>
 
@@ -104,27 +133,30 @@
 	      	<div class="col-md-12 col-sm-12" 
 	         	style="background-image:url(/static/search.jpg);
                     background-repeat:none; height: 600px;">
-                <div class="row" style="margin-top: 100px">
-                	<div class="col-md-1">
+                <div class="row" style="margin-top: 200px">
+                	<div class="col-md-12">
                 		
                 	</div>
-                	<div class="col-md-4">
-                		<div class="form-group">
-							<label for="exampleInputEmail1">Kids Age</label>
-							<input type="email" class="form-control" id="age" aria-describedby="emailHelp" placeholder="Enter a number: ">
-						</div>
-                	</div>
-                	<div class="col-md-4">
-                		<div class="form-group">
-							<label for="exampleInputPassword1">Gender</label>
-							<input type="gender" class="form-control" id="gender" placeholder="boy/girl">
-						</div>
+
+                	<div class="col-md-3">
                 		
                 	</div>
-                	<div class="col-md-2" style="margin-top: 22px">
-                		<button type="submit" class="btn btn-primary">Search</button>
+                	<div class="col-md-6">
+					  	<select class="custom-select">
+					    	<option selected>Select age...</option>
+					    	<option value="2 months">2 months</option>
+					    	<option value="4 months">4 months</option>
+					    	<option value="6 months">6 months</option>
+					    	<option value="12 months">12 months</option>
+					    	<option value="18 months">18 months</option>
+					    	<option value="4 years">4 years</option>
+					    	<option value="12 - 13 years">12 - 13 years</option>
+					  	</select>
+					  	<button class="btn btn-primary" type="button" style="margin-top: 30px">Search</button>
+                		
+                		
                 	</div>
-                	<div class="col-md-1">
+                	<div class="col-md-3">
                 		
                 	</div>
                 	
