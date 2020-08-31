@@ -232,10 +232,10 @@ var demo = new Vue({
                     if(response.data.length > 0) {
                     	that.visible = true
                     }
-                    
+                    that.vaccines = []
                     for (i = 0; i < response.data.length; i++) { 
 					    that.vaccines.push({type: response.data[i].fields.type, brand: response.data[i].fields.brand})
-					 }
+					}
                 }, error => {
                     console.log('error', error.message)
                 })
