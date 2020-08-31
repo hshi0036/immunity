@@ -128,9 +128,9 @@
 	      	<div class="col-md-12 col-sm-12" 
 	         	style="background-image:url(/static/search.jpg);
                     background-repeat:none; height: 600px;">
-                <div class="row" style="margin-top: 100px;height: 400px">
-                	<div class="col-md-12">
-
+                <div class="row" style="margin-top: 50px;height: 400px">
+                	<div class="col-md-12" style="margin-bottom: 50px; color: black">
+                		<h1>Search vaccine checklist by age</h1>
                 	</div>
 
                 	<div class="col-md-3">
@@ -163,7 +163,7 @@
 	                		<el-table
 	                			v-if="visible"
 						      	:data="vaccines"
-						      	max-height="350"
+						      	max-height="300"
 						      	>
 						      	<el-table-column
 						        	prop="type"
@@ -182,7 +182,9 @@
                 		
 	                	</div>
                 	</div>
+                	<a v-if="visible" href="/policy">AU POLICY</a>
                 </div>
+
                 
 	         
 	        </div>

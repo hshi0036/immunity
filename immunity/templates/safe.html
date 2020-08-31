@@ -36,12 +36,12 @@
 	}
 
 	p{
-		font-size:22px;
-		font-weight:bold;
+		font-size:15px;
 		color: black;
-		padding:50px;
+		padding:20px;
 		border-radius:2px;
-		text-transform:uppercase;
+		text-align: left;
+		/*text-transform:uppercase;*/
 	}
 
 	p b{
@@ -49,8 +49,8 @@
 		display:inline-block;
 		padding:20px;
 		background-color:#c4d7e0;
-		border-radius:2px;
-		text-transform:uppercase;
+		border-radius:2px;/*
+		text-transform:uppercase;*/
 		font-size:18px;
 	}
 	.card {
@@ -81,7 +81,7 @@
 		<div class="row">
 			<div class="col-md-3 col-sm-6 card" 
 				v-on:click="home($event)"
-	         	style="background-color: #bad6bd;box-shadow: 
+	         	style="background-color: white;box-shadow: 
 	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 120px;background-image:url(/static/test.png);
                     background-repeat:none;
                     background-size: 300px 120px;">
@@ -99,15 +99,20 @@
 	      	</div> -->
 
 		</div>
-	   	<div class="row" style="margin-top: 30px; background-color: #f4daf7;">
+	   	<div class="row" style="margin-top: 30px; background-color: white;">
 	      	
 	      	<div class="col-md-6 col-sm-12" 
 	         	style="height: 600px;">
+	         	<h1 style="color: black">Are vaccines safe for my kids?</h1>
+	         	<p>Vaccines are safe and effective. Because vaccines are given to millions of healthy people — including children — to prevent serious diseases, they’re held to very high safety standards.</p>
+	         	<p>Before a vaccine or any medication can be used in Australia it must be licensed by the Therapeutic Goods Administration (TGA). The TGA extensively assesses each vaccine for safety and effectiveness. This assessment is based on scientific evidence. Vaccines are generally very safe but like any medication or natural therapy they can have some side effects. These are usually short lasting and do not require special treatment.</p>
+	         	<p>Check the following link from SA health for further information about each type of vaccines: <a href="https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/conditions/immunisation/vaccines/vaccines" target="_blank">CLICK HERE</a></p>
                 
 	         
 	        </div>
-	        <div class="col-md-6 col-sm-12" style="margin-top: 100px" >
-                    <img src="/static/safe.jpg" width="350" height="400">
+	        <div class="col-md-6 col-sm-12" style="margin-top: 20px" >
+	        	<img src="/static/safe1.png" width="400" height="300">
+                    <img src="/static/safe.jpg" width="200" height="200">
                 
 	         
 	        </div>
