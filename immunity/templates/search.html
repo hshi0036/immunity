@@ -98,11 +98,49 @@
 </head>
 <body>
 
+<nav class="navbar navbar-default" role="navigation" style="border: 0px;">
+    <!-- 页面小屏的时候（这里设置的是(min-width: 768px)）出现的汉堡按钮 -->
+    <div class="navbar-header">
+        <img src="/static/test.png" width="90" height="50" v-on:click="vaccine($event)">
+        <!-- 这里是汉堡式菜单显示隐藏的折叠开关 -->
+        <!-- data-toggle用于告诉 JavaScript 需要对按钮做什么， data-target指示要切换到哪一个元素。三个带有 .icon-bar 的 <span> 创建汉堡按钮里面的那三根线。 -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+    </div>
+
+    <!-- 页面大屏的时候出现导航栏 -->
+    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="/">HOME</a></li>
+            <li><a href="/vaccine">What is vaccine?</a></li>
+            <li><a href="/safe">Is vaccine safe?</a></li>
+            <li><a href="/policy">Immunication Policy?</a></li>
+            <li class="active"><a href="/search">Vaccines for Kids</a></li>
+            <!-- <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    这里有二级菜单 <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">分割的第一个导航栏</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分割的第二例导航栏</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">分割的第三例导航栏</a></li>
+                </ul>
+            </li>
+ -->        </ul>
+    </div>
+</nav>
+
 <div id="main" style="margin-top: 50px">
 
 	
 	<div class="container">
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-md-3 col-sm-6 card" 
 				v-on:click="home($event)"
 	         	style="background-color: #bad6bd;box-shadow: 
@@ -116,13 +154,8 @@
 	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 120px;">
 	         	
 	      	</div>
-	      	<!-- <div class="col-md-2 col-sm-3 card" 
-	         	style="background-color: #9acf4c;box-shadow: 
-	         	inset 1px -1px 1px #444, inset -1px 1px 1px #444; height: 100px">
-	         	<p style="font-size: 15px; padding:30px;">language options</p>
-	      	</div> -->
 
-		</div>
+		</div> -->
 	   	<div class="row" style="margin-top: 30px">
 	      	
 	      	<div class="col-md-12 col-sm-12" 
@@ -130,7 +163,7 @@
                     background-repeat:none; height: 600px;">
                 <div class="row" style="margin-top: 50px;height: 400px">
                 	<div class="col-md-12" style="margin-bottom: 50px; color: black">
-                		<h1>Search vaccine checklist by age</h1>
+                		<h1>Get vaccine checklist by age</h1>
                 	</div>
 
                 	<div class="col-md-3">
