@@ -1,0 +1,38 @@
+------------------------------------------------------------
+  Plugin list generated with BackWPup version: 3.7.1
+  http://backwpup.com
+  Blog Name: Better Immunity
+  Blog URL: http://betterimmunity.team
+  Generated on: 2020-09-10 06:02.43
+------------------------------------------------------------
+
+
+All plugin information:
+------------------------------
+Akismet Anti-Spam (v.4.1.6) from Automattic
+	https://akismet.com/
+BackWPup (v.3.7.1) from Inpsyde GmbH
+	http://backwpup.com
+Elementor (v.3.0.6) from Elementor.com
+	https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash
+H5P (v.1.15.0) from Joubel
+	http://h5p.org/wordpress
+Hello Dolly (v.1.7.2) from Matt Mullenweg
+	http://wordpress.org/plugins/hello-dolly/
+Permalink Manager Lite (v.2.2.8.9) from Maciej Bis
+	https://permalinkmanager.pro?utm_source=plugin
+Redirection (v.4.8) from John Godley
+	https://redirection.me/
+
+Active plugins:
+------------------------------
+Akismet Anti-Spam
+BackWPup
+Elementor
+H5P
+Permalink Manager Lite
+Redirection
+
+Inactive plugins:
+------------------------------
+Hello Dolly
