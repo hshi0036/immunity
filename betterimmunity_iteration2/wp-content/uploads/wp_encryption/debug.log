@@ -1,0 +1,26 @@
+<b>5.1.7  SINGLE DOMAIN SSL 0 - https://betterimmunity.ga</b>
+[18-09-2020 00:57:40] :
+No account found, attempting to create account.
+
+[18-09-2020 00:57:41] :
+LEClient finished constructing
+
+[18-09-2020 00:57:41] :
+No order found for 'betterimmunity.ga'. Creating new order.
+
+[18-09-2020 00:57:42] :
+Created order for 'betterimmunity.ga'.
+
+Creating HTTP challenge file http://betterimmunity.ga/.well-known/acme-challenge/CLUI-e_ujsk3aQio8hT7ww-rHYPNU3RYRMoKWifpafY
+[18-09-2020 00:57:42] :
+HTTP challenge for 'betterimmunity.ga' valid.
+
+Finalizing the order
+[18-09-2020 00:57:46] :
+Order for 'betterimmunity.ga' finalized.
+
+Getting SSL certificates
+[18-09-2020 00:57:46] :
+Certificate for 'betterimmunity.ga' saved
+
+<h2>SSL Certificate generated successfully!</h2>
