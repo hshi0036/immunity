@@ -1,6 +1,5 @@
 project name: better immunity
-domain name: betterimmunity.ml
-backend: django
-front end: vue
-delpoy: nginx
-host: AWS
+domain name: https://betterimmunity.ga
+backend: apache
+front end: wordpress
+host: digitalocean
