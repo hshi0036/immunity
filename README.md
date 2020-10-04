@@ -1,7 +1,7 @@
 ## project name: better immunity
 ## domain name: https://betterimmunity.ga
 ## backend: apache
-##front end: wordpress
+## front end: wordpress
 ## host: digitalocean
 
 # How to Install WordPress in DigitalOcean
