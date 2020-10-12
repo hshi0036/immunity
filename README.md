@@ -1,5 +1,5 @@
 ## project name: better immunity
-## domain name: https://betterimmunity.ga
+## domain name: https://betterimmunity.ml
 ## backend: apache
 ## front end: wordpress
 ## host: digitalocean
