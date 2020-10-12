@@ -1,0 +1,29 @@
+# Translation of Plugins - Easy Media Download - Development (trunk) in English (Australia)
+# This file is distributed under the same license as the Plugins - Easy Media Download - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-16 03:09:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_AU\n"
+"Project-Id-Version: Plugins - Easy Media Download - Development (trunk)\n"
+
+#: main.php:65
+msgid "For detailed documentation please visit the plugin homepage <a target=\"_blank\" href=\"%s\">here</a>."
+msgstr "For detailed documentation please visit the plugin home page <a target=\"_blank\" href=\"%s\">here</a>."
+
+#: main.php:60
+msgid "Easy Media Download Settings"
+msgstr "Easy Media Download Settings"
+
+#: main.php:50
+msgid "Settings"
+msgstr "Settings"
+
+#. Plugin Name of the plugin
+#: main.php:60
+msgid "Easy Media Download"
+msgstr "Easy Media Download"

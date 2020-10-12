@@ -1,0 +1,92 @@
+------------------------------------------------------------
+  Plugin list generated with BackWPup version: 3.8.0
+  http://backwpup.com
+  Blog Name: Better Immunity
+  Blog URL: https://betterimmunity.ml
+  Generated on: 2020-10-13 01:08.40
+------------------------------------------------------------
+
+
+All plugin information:
+------------------------------
+BackWPup (v.3.8.0) from Inpsyde GmbH
+	http://backwpup.com
+Better Search Replace (v.1.3.3) from Delicious Brains
+	https://bettersearchreplace.com
+Caldera Forms (v.1.9.2) from Caldera Forms
+	https://CalderaForms.com
+Charts and Graphs for Elementor (v.1.2.1) from RedLettuce Plugins
+	https://redlettuce.com/charts-and-graphs-for-elementor
+E2Pdf (v.1.13.00) from E2Pdf.com
+	https://e2pdf.com
+Easy Media Download (v.1.1.5) from naa986
+	https://noorsplugin.com/easy-media-download-plugin-for-wordpress/
+Elementor (v.3.0.11) from Elementor.com
+	https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash
+Elementor Addon Elements (v.1.7.1) from WP Vibes
+	https://www.elementoraddons.com/elements-addon-elements/
+Envato Elements (v.2.0.6) from Envato
+	
+Essential Addons for Elementor (v.4.3.0) from WPDeveloper
+	https://essential-addons.com/elementor/
+Fancy Elementor Flipbox (v.1.0.6) from Hossein Hashemi
+	http://themeprix.com/fancy-elementor-flipbox/
+Free Downloads WooCommerce (v.3.2.1) from Square One Media
+	https://squareonemedia.co.uk
+Jetpack by WordPress.com (v.8.9.1) from Automattic
+	https://jetpack.com
+Layouts for Elementor (v.1.2.4) from Giraphix Creative
+	https://profiles.wordpress.org/giraphix/
+Password Protected (v.2.4) from Ben Huson
+	https://wordpress.org/plugins/password-protected/
+Really Simple SSL (v.3.3.5) from Really Simple Plugins
+	https://www.really-simple-ssl.com
+Scroll Back To Top Button (v.2.9.0) from Sayful Islam
+	http://wordpress.org/plugins/scrollup-master/
+Search and Replace (v.1.31) from manu225
+	http://www.info-d-74.com
+Starter Templates (v.2.3.7) from Brainstorm Force
+	https://wpastra.com/
+Tabs – Responsive Tabs with WooCommerce Product Tab Extension (v.3.3.1) from Biplob Adhikari
+	https://www.oxilab.org/
+UpdraftPlus - Backup/Restore (v.1.16.29) from UpdraftPlus.Com, DavidAnderson
+	https://updraftplus.com
+WooCommerce (v.4.5.2) from Automattic
+	https://woocommerce.com/
+WPB Accordion Menu or Category (v.1.3.8) from wpbean
+	https://wpbean.com/downloads/wpb-accordion-menu-category-pro/
+WP fail2ban (v.4.3.0.8) from Charles Lecklider
+	https://wp-fail2ban.com/
+WPForms Lite (v.1.6.2.3) from WPForms
+	https://wpforms.com
+
+Active plugins:
+------------------------------
+BackWPup
+Better Search Replace
+Charts and Graphs for Elementor
+Elementor
+Elementor Addon Elements
+Envato Elements
+Essential Addons for Elementor
+Password Protected
+Scroll Back To Top Button
+Search and Replace
+WP fail2ban
+
+Inactive plugins:
+------------------------------
+Caldera Forms
+E2Pdf
+Easy Media Download
+Fancy Elementor Flipbox
+Free Downloads WooCommerce
+Jetpack by WordPress.com
+Layouts for Elementor
+Really Simple SSL
+Starter Templates
+Tabs – Responsive Tabs with WooCommerce Product Tab Extension
+UpdraftPlus - Backup/Restore
+WooCommerce
+WPB Accordion Menu or Category
+WPForms Lite
